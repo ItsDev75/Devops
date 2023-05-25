@@ -1,6 +1,6 @@
 // //ATLAS
 import mongoose from "mongoose";
-import config from "./serverConfig.js";
+import config from "./serverConfig.cjs";
 export const connect = async () => {
   try {
     await mongoose.connect(config.DB_URL);

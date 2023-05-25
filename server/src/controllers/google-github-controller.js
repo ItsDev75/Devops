@@ -1,5 +1,5 @@
 import { GoogleService, GithubService } from "../services/index.js";
-import config from "../config/serverConfig.js";
+import config from "../config/serverConfig.cjs";
 const googleService = new GoogleService();
 const githubService = new GithubService();
 

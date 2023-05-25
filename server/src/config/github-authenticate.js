@@ -1,5 +1,5 @@
 import passport from "passport";
-import config from "./serverConfig.js";
+import config from "./serverConfig.cjs";
 import GitHub from "passport-github2";
 
 const GitHubStrategy = GitHub.Strategy;

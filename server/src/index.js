@@ -5,11 +5,13 @@ import cors from "cors";
 import flash from "connect-flash";
 
 import { connect } from "./config/database.js";
-import config from "./config/serverConfig.js";
+import config from "./config/serverConfig.cjs";
 
 import apiRoutes from "./routes/index.js";
 
 import passport from "passport";
+//import passport from "./config/passport.js";
+
 import { passportAuth } from "./config/jwt-middleware.js";
 import "./config/google-authenticate.js";
 import "./config/github-authenticate.js";

@@ -1,4 +1,5 @@
-import dotenv from "dotenv";
+const dotenv = require("dotenv");
+
 dotenv.config();
 
 const config = {
@@ -14,4 +15,5 @@ const config = {
   DB_URL: process.env.DB_URL,
 };
 
-export default config;
+module.exports = config;
+
